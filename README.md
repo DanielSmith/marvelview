@@ -1,4 +1,4 @@
-ri# MarvelView
+# MarvelView
 
 ## Sample Marvel API React App
 
