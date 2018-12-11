@@ -69,8 +69,8 @@ class App extends Component {
       <div className="App">
         <div className="ui container">
           <div className="headerText">
+            <p>Welcome to MarvelView{this.state.searchState}</p>
             <header className="ui large header"> 
-              <p>Welcome to MarvelView{this.state.searchState}</p>
               <Search searchCallback={this.onSearchSubmit} />
             </header>
           </div>

@@ -17,6 +17,10 @@
   padding-bottom: 40px;
 }
 
+.headerText p {
+  font-weight: 700;
+}
+
 .comicItem, .comicDetail {
   cursor: pointer;
 }
