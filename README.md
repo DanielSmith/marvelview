@@ -21,7 +21,7 @@ AWS Demo Instance - [http://ec2-54-219-172-52.us-west-1.compute.amazonaws.com:30
 * Enter a title, and press enter to launch a search
 * Searches are based on what a title starts with ("pider" will fail, but "spider" will find Spider-Man titles).  The Marvel API provides for either a title match, or "starts with".
 * Feedback is given while searching, and in the case where there are no results
-* No search is perfomed if the search field is empty
+* No search is performed if the search field is empty
 * There is a limit of 10 results per search.  This would be easy to change.
 * Clicking on a thumbnail will show more detail to right, including a poster image, title, and description
 * Clicking an the detail poster will launch a new browser window for that title on the Marvel site.
