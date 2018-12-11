@@ -14,6 +14,9 @@ class App extends Component {
   }
 
   onSearchSubmit = async (searchTerm) => {
+    // in case nothing was found
+    let noResultMsg = `: No search results for "${searchTerm}"`;
+
 
     // anything to search?
     if (searchTerm.trim() === '') {
@@ -37,9 +40,16 @@ class App extends Component {
       }
     });
 
+    // TODO: look for no results, and show
+    // "nothing found for (the searchterm)"
+
+    if (response.data.data.results.length) {
+      noResultMsg = '';
+    }
+
     this.setState( {
       comicResults: response.data.data.results,
-      searchState: ''
+      searchState: noResultMsg
     });
   }
 
