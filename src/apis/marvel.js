@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const PUBLIC_KEY = '39a66d27f10436a1b43571537fccad0d';
+// get a key @ https://developer.marvel.com
+const PUBLIC_KEY = 'USE_YOUR_OWN_MARVEL_KEY';
 
 export default axios.create ({
   baseURL: 'http://gateway.marvel.com/v1/public',
