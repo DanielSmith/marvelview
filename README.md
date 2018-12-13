@@ -15,6 +15,8 @@ Github Repo - [https://github.com/DanielSmith/marvelview.git](https://github.com
 
 AWS Demo Instance - [http://ec2-54-219-172-52.us-west-1.compute.amazonaws.com:3000/](http://ec2-54-219-172-52.us-west-1.compute.amazonaws.com:3000/)
 
+Developer Key - sign up at: [ https://developer.marvel.com]( https://developer.marvel.com)
+
 ### Functionality Details
 
 * Upon launching MarvelView, it reaches out to do a default search (in this case "deadpool")
